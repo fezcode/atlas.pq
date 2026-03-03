@@ -25,6 +25,11 @@ type DynamicMap map[string]interface{}
 type DynamicSlice []interface{}
 
 func main() {
+	if len(os.Args) > 1 && (os.Args[1] == "-v" || os.Args[1] == "--version") {
+		fmt.Printf("atlas.pq v%s\n", Version)
+		return
+	}
+
 	flag.Usage = func() {
 		fmt.Fprintf(os.Stderr, "Usage of atlas.pq:\n")
 		fmt.Fprintf(os.Stderr, "  atlas.pq [options] [file.piml]\n\n")
