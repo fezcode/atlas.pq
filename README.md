@@ -1,5 +1,7 @@
 # atlas.pq 🛰️
 
+![banner](banner.png)
+
 `atlas.pq` is a minimalist command-line PIML processor, heavily inspired by `jq`. It allows you to slice, filter, and map PIML data with ease using simple dot notation.
 
 ## Features
