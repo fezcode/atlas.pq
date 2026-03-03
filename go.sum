@@ -1,0 +1,4 @@
+github.com/fezcode/go-piml v1.2.1 h1:IW71Q6vEjyzpkeMvV1wkgP8w/ucObXXF5WDEaadMQSE=
+github.com/fezcode/go-piml v1.2.1/go.mod h1:GbFMPCBsrUoNZnG3JzTr7BwbIeMucPs70LuvkgxJYdQ=
+github.com/fezcode/gobake v0.3.0 h1:wYw1EXHoUjpYXzG7MUgE5ohKxZ+XXYu2Vdf5wsKhKE8=
+github.com/fezcode/gobake v0.3.0/go.mod h1:xLBhJdcq4K9Fv2rV+hlTXnUa9sB7q/qHQfQlqfmQuWo=

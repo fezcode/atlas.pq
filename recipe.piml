@@ -1,0 +1,4 @@
+(name) atlas.pq
+(version) 0.1.0
+(description) Minimalist PIML processor (inspired by jq).
+(license) MIT
