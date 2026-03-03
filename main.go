@@ -25,6 +25,16 @@ type DynamicMap map[string]interface{}
 type DynamicSlice []interface{}
 
 func main() {
+	flag.Usage = func() {
+		fmt.Fprintf(os.Stderr, "Usage of atlas.pq:\n")
+		fmt.Fprintf(os.Stderr, "  atlas.pq [options] [file.piml]\n\n")
+		fmt.Fprintf(os.Stderr, "Options:\n")
+		flag.PrintDefaults()
+		fmt.Fprintf(os.Stderr, "\nExamples:\n")
+		fmt.Fprintf(os.Stderr, "  atlas.pq -q tools.0.name manifest.piml\n")
+		fmt.Fprintf(os.Stderr, "  cat config.piml | atlas.pq -r -q version\n")
+	}
+
 	query := flag.String("q", ".", "Query string (dot notation, e.g., 'tools.0.name')")
 	compact := flag.Bool("c", false, "Compact JSON output")
 	raw := flag.Bool("r", false, "Raw output (don't quote strings)")
