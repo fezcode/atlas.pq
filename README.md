@@ -17,7 +17,7 @@
 Install via **atlas.hub**:
 
 ```bash
-atlas.hub install atlas.pq
+atlas.hub
 ```
 
 Or build from source using **gobake**:
